@@ -1,0 +1,7 @@
+COLORES
+#1C4640
+#02727D
+#02727D <----- claro(Verde aqua)	
+#0A526B <----- oscuro(Verde aqua)
+#969696 <----- gris
+#9D9D9D <----- gris hover
