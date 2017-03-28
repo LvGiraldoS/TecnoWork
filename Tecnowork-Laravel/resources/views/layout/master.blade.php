@@ -4,7 +4,6 @@
     </head>
     <body>
         @section('sidebar')
-            formulario
         @show
 
         <div class="container">

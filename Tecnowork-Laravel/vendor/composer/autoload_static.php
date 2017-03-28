@@ -283,7 +283,7 @@ class ComposerStaticInitf7157e6ac99e9e167ce54f5671078617
         'CreateTipoTituloTable' => __DIR__ . '/../..' . '/database/migrations/2017_03_23_204723_create_tipo_titulo_table.php',
         'CreateTipoTransaccionTable' => __DIR__ . '/../..' . '/database/migrations/2017_03_23_211755_create_tipo_transaccion_table.php',
         'CreateUsersTable' => __DIR__ . '/../..' . '/database/migrations/2014_10_12_000000_create_users_table.php',
-        'CreateUsuariosTable' => __DIR__ . '/../..' . '/database/migrations/2017_03_23_212545_create_usuarios_table.php',
+        'CreateUsuariosTable' => __DIR__ . '/../..' . '/database/migrations/2017_03_28_193628_create-usuarios-table.php',
         'DatabaseSeeder' => __DIR__ . '/../..' . '/database/seeds/DatabaseSeeder.php',
         'File_Iterator' => __DIR__ . '/..' . '/phpunit/php-file-iterator/src/Iterator.php',
         'File_Iterator_Facade' => __DIR__ . '/..' . '/phpunit/php-file-iterator/src/Facade.php',
