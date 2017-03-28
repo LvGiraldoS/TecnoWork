@@ -13,18 +13,22 @@ class usuariosController extends Controller
 
     public function insertar_usuarios()
     {
+        $data =Request()->all();
         
-
+        registro_clientes::create($data);
 
     }
+
         public function listar_usuarios()
     {
         
     }
+
         public function actualizar_usuarios()
     {
         
     }
+    
         public function eliminar_usuarios()
     {
         
