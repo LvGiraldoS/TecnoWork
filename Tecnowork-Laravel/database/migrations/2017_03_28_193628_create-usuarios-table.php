@@ -14,11 +14,12 @@ class CreateUsuariosTable extends Migration
     {
         Schema::create('usuarios', function (Blueprint $table) {
             $table->increments('id_usuario');
-            $table->integer('tipo_identificacion');
+            $table->string('tipo_identificacion');
             $table->string('identificacion');
             $table->string('nombres');
             $table->string('apellidos');
             $table->date('fecha_nacimiento');
+            $table->string('titulo');
             $table->string('correo_electronico');
             $table->string('contraseña');
             $table->string('direccion');
@@ -27,6 +28,8 @@ class CreateUsuariosTable extends Migration
             $table->integer('numero_cuenta');
             $table->integer('id_tipo_transaccion');
             $table->string('disponibilidad');
+            //$table->integer('tipo_usuario');
+            $table->string('tipo_usuario');
            
         });
     }

@@ -19,6 +19,7 @@ Route::get('/', function () {
 Route::get('registro_egresado', function () {
     return view('registro_egresado');
 });
+Route::post('insertar_usuarios','usuariosController@insertar_usuarios');
 
 //EGRESADO
 
@@ -26,5 +27,9 @@ Route::get('registro_egresado', function () {
 Route::get('registro_cliente', function () {
     return view('registro_cliente');
 });
+Route::post('insertar_usuarios','usuariosController@insertar_usuarios');
 
 //CLIENTE
+
+
+
