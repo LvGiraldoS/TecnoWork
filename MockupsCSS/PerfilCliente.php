@@ -138,15 +138,7 @@
     </div>
   </div>
   <p>&nbsp;</p>
-  <div id="menu">
-    <table width="100%" height="27" border="0" >
-      <tr>
-        <td class="menu">Sugerencias</td>
-        <td class="menu">Tutoriales</td>
-        <td class="menu"><p>Cerrar Sesion</p></td>
-      </tr>
-    </table>
-  </div>
+  
 </div>
 </body>
 </html>

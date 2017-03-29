@@ -18,26 +18,68 @@
             <td width="509" class="tituloA">PREGUNTAS FRECUENTES </td>
             </tr>
           <tr>
-            <td class="textoA">como utilizar el SIW</td>
+            <td class="textoA">¿Quienes pueden tomar el rol de cliente?</td>
             </tr>
           <tr>
-            <td class="textoA">Que tipo de documentos debo agregar en el registro de egresado</td>
+            <td class="textoA">¿Quienes pueden tomar el rol de Egresado?</td>
             </tr>
           <tr>
-            <td class="textoA">bla</td>
+            <td class="textoA">¿Como consultar tipo de servicio?</td>
             </tr>
           <tr>
-            <td height="23" class="textoA">&nbsp;</td>
+            <td height="23" class="textoA">¿Como utilizar el SIW (Sistema de información web)?</td>
             </tr>
+          <tr>
+            <td class="textoA">¿Con que forma de pago se realiza las transacciones?</td>
+            </tr>
+          <tr>
+            <td class="textoA">¿Como registrarse (Egresado)?</td>
+          </tr>
+          <tr>
+            <td class="textoA">¿Como registrarse (Cliente)?</td>
+          </tr>
+          <tr>
+            <td class="textoA">¿Como recuperar mi contraseña?</td>
+          </tr>
+          <tr>
+            <td class="textoA">¿Como cambiar los datos del perfil?</td>
+          </tr>
+          <tr>
+            <td class="textoA">¿Como ofertar un servicio?</td>
+          </tr>
+          <tr>
+            <td class="textoA">¿Como postularme a un servicio?</td>
+          </tr>
+          <tr>
+            <td class="textoA">¿Como cambiar mi contraseña ?</td>
+          </tr>
+          <tr>
+            <td class="textoA">¿Como cambiar el número de cuenta bancaria (Egresado)?</td>
+          </tr>
+          <tr>
+            <td class="textoA">¿Como cancelar un servicio Cliente?</td>
+          </tr>
+          <tr>
+            <td class="textoA">¿Como cancelar un servicio Egresado?</td>
+          </tr>
+          <tr>
+            <td class="textoA">¿Como cambiar la direccion de mi residencia?</td>
+          </tr>
+          <tr>
+            <td class="textoA">¿Como suspender o eliminar mi cuenta ?</td>
+          </tr>
           <tr>
             <td class="textoA">&nbsp;</td>
-            </tr>
+          </tr>
           <tr>
             <td class="textoA">&nbsp;</td>
-            </tr>
+          </tr>
           <tr>
             <td class="textoA">&nbsp;</td>
-            </tr>
+          </tr>
+          <tr>
+            <td class="textoA">&nbsp;</td>
+          </tr>
           <tr>
             <td class="textoA">&nbsp;</td>
             </tr>

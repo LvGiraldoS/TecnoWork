@@ -9,7 +9,7 @@
 </head>
 
 <body>
-<table width="991"  height="50" border="0" align="center" bordercolor="#FFFFFF" class="menu">
+<table width="991"  height="45" border="0" align="center" bordercolor="#FFFFFF" class="menu">
 <tr>
   <td width="50" height="46" class="menu"><img src="imgBotInicio.png" alt="iconoInicio" width="47" height="44" /></td>
   <td width="61"   class="menu"><a href="Index.php" target="_parent">INICIO</a></td>
