@@ -18,7 +18,7 @@ class usuariosController extends Controller
         usuariosModel::create($data);
 
     }*/
-
+//INSERTAR USUARIOS
     protected function insertar_usuarios(Request $request)
     {
     
@@ -42,20 +42,39 @@ class usuariosController extends Controller
         ]);
 
     }
+//INSERTAR USUARIOS
 
+//EDITAR USUARIOS
+    public function editar_usuario($id)
+    {
+         $usuario=usuariosModel::findorfail($id);
+        return view ('listar_usuarios', compact('usuario'));
+    }
+//EDITAR USUARIOS
+
+//LISTAR USUARIOS
         public function listar_usuarios()
     {
-        
+        $usuario=usuariosModel::all();
+        return view('listar_usuarios', compact('usuario'));
     }
+//LISTAR USUARIOS
 
+//ACTUALIZAR USUARIOS
         public function actualizar_usuarios()
     {
         
     }
+//ACTUALIZAR USUARIOS
 
-        public function eliminar_usuarios()
+//ELIMINAR USUARIOS
+        public function eliminar_usuarios($id_usuario)
     {
-        
-    }
+    
+        $usuario=usuariosModel::findorfail($id_usuario); 
+        $usuario->delete();
 
+        return redirect ()->to ('listar');
+    }
+//ELIMINAR USUARIOS
 }

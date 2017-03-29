@@ -14,7 +14,7 @@ class CreateTipoServicioTable extends Migration
     {
         Schema::create('tipo_servicio', function (Blueprint $table) {
             $table->increments('id_tipo_servicio');
-            $table->integer('nombre_tipo_servicio');
+            $table->string('nombre_tipo_servicio');
             $table->integer('valor_minimo_servicio');
             $table->integer('valor_maximo_servicio');
            

@@ -10,13 +10,13 @@ class CreateTipoTituloTable extends Migration
      *
      * @return void
      */
-     public function up()
+
+    public function up()
     {
         Schema::create('tipo_titulo', function (Blueprint $table) {
             $table->increments('id_titulo');
-            $table->integer('nombre_titulo');
-           
-           
+            $table->string('nombre_titulo');
+            
         });
     }
 

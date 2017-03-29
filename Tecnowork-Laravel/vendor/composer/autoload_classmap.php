@@ -6,11 +6,12 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'CreateInformeServicioTable' => $baseDir . '/database/migrations/2017_03_23_204515_create_informe_servicio_table.php',
+    'CreateInformeServicioTable' => $baseDir . '/database/migrations/2017_03_29_211745_create_informe_servicio_table.php',
     'CreatePasswordResetsTable' => $baseDir . '/database/migrations/2014_10_12_100000_create_password_resets_table.php',
     'CreateRolTable' => $baseDir . '/database/migrations/2017_03_22_211524_create_rol_table.php',
-    'CreateTipoServicioTable' => $baseDir . '/database/migrations/2017_03_22_211554_create_tipo_servicio_table.php',
-    'CreateTipoTituloTable' => $baseDir . '/database/migrations/2017_03_23_204723_create_tipo_titulo_table.php',
+    'CreateServiciosUsuariosTable' => $baseDir . '/database/migrations/2017_03_29_211844_create_servicios_usuarios_table.php',
+    'CreateTipoServicioTable' => $baseDir . '/database/migrations/2017_03_29_182909_create_tipo_servicio_table.php',
+    'CreateTipoTituloTable' => $baseDir . '/database/migrations/2017_03_29_182806_create_tipo_titulo_table.php',
     'CreateTipoTransaccionTable' => $baseDir . '/database/migrations/2017_03_23_211755_create_tipo_transaccion_table.php',
     'CreateUsersTable' => $baseDir . '/database/migrations/2014_10_12_000000_create_users_table.php',
     'CreateUsuariosTable' => $baseDir . '/database/migrations/2017_03_28_193628_create-usuarios-table.php',

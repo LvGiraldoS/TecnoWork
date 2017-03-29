@@ -15,6 +15,14 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+//LOGIN
+
+Route::get('login', 'Auth\AuthController@getLogin');
+Route::post('login', 'Auth\AuthController@postLogin');
+Route::get('logout', 'Auth\AuthController@getLogout');
+
+//LOGIN
+
 //EGRESADO
 Route::get('registro_egresado', function () {
     return view('registro_egresado');
@@ -30,6 +38,14 @@ Route::get('registro_cliente', function () {
 Route::post('insertar_usuarios','usuariosController@insertar_usuarios');
 
 //CLIENTE
+
+//USUARIO
+
+Route::get('editar/{id_usuario}','usuariosController@editar');
+Route::get('listar','usuariosController@listar_usuarios');
+Route::get('eliminar/{id_usuario}','usuariosController@eliminar_usuarios');
+
+//USUARIO
 
 
 

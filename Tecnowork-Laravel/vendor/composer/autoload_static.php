@@ -276,11 +276,12 @@ class ComposerStaticInitf7157e6ac99e9e167ce54f5671078617
     );
 
     public static $classMap = array (
-        'CreateInformeServicioTable' => __DIR__ . '/../..' . '/database/migrations/2017_03_23_204515_create_informe_servicio_table.php',
+        'CreateInformeServicioTable' => __DIR__ . '/../..' . '/database/migrations/2017_03_29_211745_create_informe_servicio_table.php',
         'CreatePasswordResetsTable' => __DIR__ . '/../..' . '/database/migrations/2014_10_12_100000_create_password_resets_table.php',
         'CreateRolTable' => __DIR__ . '/../..' . '/database/migrations/2017_03_22_211524_create_rol_table.php',
-        'CreateTipoServicioTable' => __DIR__ . '/../..' . '/database/migrations/2017_03_22_211554_create_tipo_servicio_table.php',
-        'CreateTipoTituloTable' => __DIR__ . '/../..' . '/database/migrations/2017_03_23_204723_create_tipo_titulo_table.php',
+        'CreateServiciosUsuariosTable' => __DIR__ . '/../..' . '/database/migrations/2017_03_29_211844_create_servicios_usuarios_table.php',
+        'CreateTipoServicioTable' => __DIR__ . '/../..' . '/database/migrations/2017_03_29_182909_create_tipo_servicio_table.php',
+        'CreateTipoTituloTable' => __DIR__ . '/../..' . '/database/migrations/2017_03_29_182806_create_tipo_titulo_table.php',
         'CreateTipoTransaccionTable' => __DIR__ . '/../..' . '/database/migrations/2017_03_23_211755_create_tipo_transaccion_table.php',
         'CreateUsersTable' => __DIR__ . '/../..' . '/database/migrations/2014_10_12_000000_create_users_table.php',
         'CreateUsuariosTable' => __DIR__ . '/../..' . '/database/migrations/2017_03_28_193628_create-usuarios-table.php',

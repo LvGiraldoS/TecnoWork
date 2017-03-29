@@ -21,7 +21,7 @@ trait AuthenticatesUsers
             return view('auth.authenticate');
         }
 
-        return view('auth.login');
+        return view('login');
     }
 
     /**
@@ -127,7 +127,7 @@ trait AuthenticatesUsers
      */
     public function loginPath()
     {
-        return property_exists($this, 'loginPath') ? $this->loginPath : '/auth/login';
+        return property_exists($this, 'loginPath') ? $this->loginPath : '/login';
     }
 
     /**

@@ -6,7 +6,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Documento sin título</title>
-<link href="HojaEstilos.css" rel="stylesheet" type="text/css" />
+<link href="css/HojaEstilos.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>

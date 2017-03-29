@@ -1,0 +1,42 @@
+*{
+	margin:0;
+	padding: 0;
+}
+.perfil{
+	top: 3px;
+	position: absolute;
+	height: 632px;
+	width: 25%;
+	background: #EEEEEE;
+	left: 2px;
+}
+.tablaPerfil
+{
+
+	top: 0px;
+	left: 0px;
+	bottom: 0px;
+	
+}
+.contenedor{
+
+	position: fixed;
+	background: #02727D;
+	width: 75%;
+	height: 100%;
+	left: 25%;	
+	float: right;
+	box-sizing: border-box;
+	
+}
+
+.tituloImagen{
+	text-align: center;
+	font-family: Verdana;
+}
+.tituloImagen .imagen{
+	width:150px;
+}
+.informacionUsuario{
+	display:inline;
+}
