@@ -13,6 +13,10 @@ use App\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ThrottlesLogins;
 use Illuminate\Foundation\Auth\AuthenticatesAndRegistersUsers;
 
+/**
+* @class AuthController
+* @brief Representa una clase automatica para login
+*/
 class AuthController extends Controller
 {
     /*
@@ -33,6 +37,8 @@ class AuthController extends Controller
      *
      * @return void
      */
+
+    
     public function __construct()
     {
         $this->middleware('guest', ['except' => 'getLogout']);
@@ -44,6 +50,7 @@ class AuthController extends Controller
      * @param  array  $data
      * @return \Illuminate\Contracts\Validation\Validator
      */
+    
     protected function validator(array $data)
     {
         return Validator::make($data, [

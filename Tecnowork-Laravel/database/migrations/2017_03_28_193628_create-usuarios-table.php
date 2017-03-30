@@ -1,8 +1,17 @@
 <?php
+/**
+* @file 2017_03_28_193628_create-usuarios-table.php
+* @Author LV -Andres Otalora
+* @date 
+* @brief implementación Migración de la Tabla Usuarios de DB
+*/
 
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
+/**
+* @class Representa la Clase CreateUsuariosTable sobre la migración
+*/
 class CreateUsuariosTable extends Migration
 {
     /**
@@ -10,6 +19,10 @@ class CreateUsuariosTable extends Migration
      *
      * @return void
      */
+
+    /**
+    * @fn up para la creación de la Tabla Usuarios en DB
+    */
     public function up()
     {
         Schema::create('usuarios', function (Blueprint $table) {
