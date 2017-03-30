@@ -1,5 +1,10 @@
 <?php
-
+/**
+* @file usuariosController.php
+* @Author LV -Andres Otalora
+* @date 
+* @brief implementación del controlador
+*/
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
@@ -8,6 +13,10 @@ use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use App\usuariosModel;
 
+/**
+* @class UsuariosController
+* @brief Representa una clase sobre los usuarios
+*/
 class usuariosController extends Controller
 {
 /*
@@ -19,6 +28,9 @@ class usuariosController extends Controller
 
     }*/
 //INSERTAR USUARIOS
+    /**
+    * @fn Insertar_usuarios Representa la inserción de usuarios sobre el modelo UsuariosModel
+    */
     protected function insertar_usuarios(Request $request)
     {
     
@@ -45,6 +57,10 @@ class usuariosController extends Controller
 //INSERTAR USUARIOS
 
 //EDITAR USUARIOS
+    /**
+    * @fn editar_usuario Representa la edición de usuarios sobre el modelo UsuariosModel
+    * @returns listar_usuarios vista
+    */
     public function editar_usuario($id)
     {
          $usuario=usuariosModel::findorfail($id);
@@ -53,6 +69,10 @@ class usuariosController extends Controller
 //EDITAR USUARIOS
 
 //LISTAR USUARIOS
+    /**
+    * @fn listar_usuarios Representa la visualización  de usuarios sobre el modelo UsuariosModel
+    * @returns listar_usuarios vista
+    */
         public function listar_usuarios()
     {
         $usuario=usuariosModel::all();
@@ -61,6 +81,9 @@ class usuariosController extends Controller
 //LISTAR USUARIOS
 
 //ACTUALIZAR USUARIOS
+    /**
+    * @fn actualizar_usuarios Representa la actualización de usuarios sobre el modelo UsuariosModel
+    */
         public function actualizar_usuarios()
     {
         
@@ -68,6 +91,10 @@ class usuariosController extends Controller
 //ACTUALIZAR USUARIOS
 
 //ELIMINAR USUARIOS
+    /**
+    * @fn eliminar_usuarios Representa la eliminación de usuarios sobre el modelo UsuariosModel
+    * @returns listar_usuarios vista por medio de la ruta listar
+    */
         public function eliminar_usuarios($id_usuario)
     {
     

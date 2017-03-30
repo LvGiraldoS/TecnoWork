@@ -1,5 +1,10 @@
 <?php
-
+/**
+* @file AuthController.php
+* @Author LV - Andres Otalora
+* @date 
+* @brief implementación del controlador automatico para login
+*/
 namespace App\Http\Controllers\Auth;
 
 use App\User;
