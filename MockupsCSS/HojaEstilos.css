@@ -84,18 +84,25 @@
 	font-size:12px;
 	overflow:auto;
 	background:#e3e7e8;
-	border:3;
-	align:center;
-	bordercolor:#02727D;
+	
 	
 }
 .texTitulos
 {
-	font-family:Verdana, Geneva, sans-serif;
+	font-family: Verdana, Geneva, sans-serif;
 	color: #02727D;
-	font-size:17px;
+	font-size: 17px;
 	font-weight: bold;
 	text-align: center;
+}
+.texTitulos2
+{
+	font-family: Verdana, Geneva, sans-serif;
+	color: #02727D;
+	font-size: 17px;
+	font-weight: bold;
+	text-align: center;	
+	
 }
 /*QUIENES SOMOS---------------------------------------------*/
 .tituloQ

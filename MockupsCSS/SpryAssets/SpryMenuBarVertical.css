@@ -7,7 +7,7 @@ ul.MenuBarVertical
 	list-style-type: none;
 	font-size: 100%;
 	cursor: default;
-	width: 22em;
+	width: 0em;
 }
 
 /* 
@@ -40,7 +40,7 @@ ul.MenuBarVertical ul
 	position: absolute;
 	z-index: 1020;
 	cursor: default;
-	width: 8.2em;
+	width: 0px;
 	left: -1000em;
 	top: 0;
 	
@@ -54,7 +54,7 @@ ul.MenuBarVertical ul.MenuBarSubmenuVisible
 Los contenedores de elementos de menú tienen el mismo ancho fijo que los padres */
 ul.MenuBarVertical ul li
 {
-	width: 5em;
+	width: 300px;
 }
 
 /*******************************************************************************
