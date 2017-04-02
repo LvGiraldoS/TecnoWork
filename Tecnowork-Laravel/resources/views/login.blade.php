@@ -21,9 +21,9 @@
        {!! csrf_field() !!}
         <p>
           <label for="correo_electronico" class="usuario">Usuario (Correo Registrado):</label>
-          <input type="text" name ="email" placeholder="Escribe tu correo"></input>  
+          <input type="text" name ="email" placeholder="Escribe tu correo" required></input>  
           <label for="contraseña" class="contraseña" name ="contraseña">Contraseña:</label>
-          <input type="password" name="password" id="contraseña" placeholder="Escribe tu contraseña"></input> 
+          <input type="password" name="password" id="contraseña" placeholder="Escribe tu contraseña" required></input> 
           <input type="submit" name="enviar" value="Iniciar Sesión">
         </p>
         <p align="center"><img src="imgBotInicio.png" width="47" height="44" /> </p>       

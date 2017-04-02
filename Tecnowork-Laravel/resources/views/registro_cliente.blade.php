@@ -39,19 +39,19 @@
         <tr>
           <td class="fuenteRegistro2">N° DOCUMENTO:</td>
           <td><label for="numDoc"></label>
-            <input name="identificacion" type="text" id="identificacion" size="29" /></td>
+            <input name="identificacion" type="text" id="identificacion" size="29" required/></td>
         </tr>
         <tr>
           <td class="fuenteRegistro2">NOMBRES:</td>
-          <td><input name="nombres" type="text" id="nombres" size="29" /></td>
+          <td><input name="nombres" type="text" id="nombres" size="29" required/></td>
         </tr>
         <tr>
           <td class="fuenteRegistro2">APELLIDOS:</td>
-          <td><input name="apellidos" type="text" id="apellidos" size="29" /></td>
+          <td><input name="apellidos" type="text" id="apellidos" size="29" required/></td>
         </tr>
         <tr>
           <td class="fuenteRegistro2">FECHA DE NACIMIENTO:</td> 
-          <td> <input type="date" name="fecha_nacimiento"></td>
+          <td> <input type="date" name="fecha_nacimiento" required></td>
         </tr>
         <tr>
           <!--<td class="fuenteRegistro2">TÍTULO:</td> TITULO value null--> 
@@ -61,27 +61,27 @@
         </tr>
         <tr>
           <td class="fuenteRegistro2">CORREO ELECTRÓNICO: (personal)</td>
-          <td><input name="correo_electronico" type="text" id="correo_electronico" size="29" /></td>
+          <td><input name="correo_electronico" type="text" id="correo_electronico" size="29" required/></td>
         </tr>
         <tr>
           <td class="fuenteRegistro2">CONTRASEÑA</td>
-            <td><input name="contraseña" type="text" id="contraseña" size="29"/></td>
+            <td><input name="contraseña" type="text" id="contraseña" size="29" required/></td>
         </tr>
         <tr>
           <td class="fuenteRegistro2">CONFIRMAR CONTRASEÑA:</td>
-          <td><input name="contraseña2" type="text" id="contraseña2" size="29"/></td>
+          <td><input name="contraseña2" type="text" id="contraseña2" size="29" required/></td>
         </tr>
         <tr>
           <td class="fuenteRegistro2">DIRECCIÓN:</td>
-          <td><input name="direccion" type="text" id="direccion" size="29" /></td>
+          <td><input name="direccion" type="text" id="direccion" size="29" required/></td>
         </tr>
         <tr>
           <td class="fuenteRegistro2">TELÉFONO:</td>
-          <td><input name="telefono" type="text" id="telefono" size="29" /></td>
+          <td><input name="telefono" type="text" id="telefono" size="29" required/></td>
         </tr>
          <tr>
           <td class="fuenteRegistro2">ENTIDAD BANCARIA: </td>
-          <td ><select name="entidad_bancaria" id="entidad_bancaria">
+          <td ><select name="entidad_bancaria" id="entidad_bancaria" required> 
               <option>Entidad Bancaria</option>
               <option value="Colpatria">Colpatria</option>
               <option value="Bancolombia">Bancolombia</option>
@@ -93,12 +93,12 @@
         <tr>
           <td class="fuenteRegistro2">NÚMERO DE CUENTA:</td>
           <td>
-            <input type="text" name="numero_cuenta" id="numero_cuenta" />
+            <input type="text" name="numero_cuenta" id="numero_cuenta" required/>
           </td>
         </tr>
         <tr>
           <td class="fuenteRegistro2">TIPO DE PAGO: </td>
-          <td ><select name="id_tipo_transaccion" id="id_tipo_transaccion">
+          <td ><select name="id_tipo_transaccion" id="id_tipo_transaccion" required>
               <option value="Tipo de Pago" selected="selected">Tipo de Pago</option>
               <option value="Tarjeta de Credito">Tarjeta de Credito</option>
               <option value="Tarjeta de Debito">Tarjeta de Debito</option>
