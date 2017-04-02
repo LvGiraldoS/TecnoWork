@@ -59,12 +59,12 @@ class usuariosController extends Controller
 //EDITAR USUARIOS
     /**
     * @fn editar_usuario Representa la edición de usuarios sobre el modelo UsuariosModel
-    * @returns listar_usuarios vista
+    * @returns actualizar_usuarios vista
     */
-    public function editar_usuario($id)
+    public function editar_usuario($id_usuario)
     {
-         $usuario=usuariosModel::findorfail($id);
-        return view ('listar_usuarios', compact('usuario'));
+         $usuario=usuariosModel::findorfail($id_usuario);
+        return view ('actualizar_usuarios', compact('usuario'));
     }
 //EDITAR USUARIOS
 
@@ -83,9 +83,14 @@ class usuariosController extends Controller
 //ACTUALIZAR USUARIOS
     /**
     * @fn actualizar_usuarios Representa la actualización de usuarios sobre el modelo UsuariosModel
+    * @returns listar vista
     */
-        public function actualizar_usuarios()
+       public function actualizar_usuarios($id_usuario)
     {
+        $usuario=usuariosModel::findorfail($id_usuario);
+        $data = Request ()->all();
+        $usuario->fill ($data)->save();
+        return redirect ()->to ('listar');
         
     }
 //ACTUALIZAR USUARIOS
@@ -93,7 +98,7 @@ class usuariosController extends Controller
 //ELIMINAR USUARIOS
     /**
     * @fn eliminar_usuarios Representa la eliminación de usuarios sobre el modelo UsuariosModel
-    * @returns listar_usuarios vista por medio de la ruta listar
+    * @returns listar vista por medio de la ruta listar
     */
         public function eliminar_usuarios($id_usuario)
     {
