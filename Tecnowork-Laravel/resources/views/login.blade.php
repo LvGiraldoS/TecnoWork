@@ -6,13 +6,13 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Documento sin título</title>
-    <link rel="stylesheet" href="HojaEstilos.css" type="text/css" />
+    <link rel="stylesheet" href="css/HojaEstilos.css" type="text/css" />
 </head>
 
 <body class="bodyInicioSesion">
 
   <div class="divimgInicioSesion">
-      <img src="imgLogoInicioSesion.png" class="imgInicioSesion">
+      <img src="imagenes/imgLogoInicioSesion.png" class="imgInicioSesion">
   </div>
 
   <div class="divformInicioSesion">  
