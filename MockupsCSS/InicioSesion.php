@@ -12,20 +12,20 @@
       <img src="imgLogoInicioSesion.png" class="imgInicioSesion">
   </div>
 
-  <div class="divformInicioSesion">  
-      
+  <div class="divformInicioSesion">
+
       <form class="form" action="PerfilCliente.php">
-        <p>
+
           <label for="correoUsuario" class="usuario">Usuario (Correo Registrado):</label>
-          <input type="text" id="correoUsuario" placeholder="Escribe tu correo"></input>  
+          <input type="email" id="correoUsuario" placeholder="Escribe tu correo" name="email" required></input>  
           <label for="contraseña" class="contraseña">Contraseña:</label>
-          <input type="password" id="contraseña" placeholder="Escribe tu contraseña"></input> 
+          <input type="password" id="contraseña" placeholder="Escribe tu contraseña" name="password" required></input>
           <input type="submit" name="enviar" value="Iniciar Sesión">
-        </p>
-        <p align="center"><a href="Index.php"><img src="imgBotInicio.png" width="47" height="44" /></a> </p>       
+          <p><a href="indexRegistroEgresado.php">Registrate como Egresado </a> - <a href="indexRegistroCliente.php">Registrate como Cliente</a></p>
+          <p><a href="Index.php"><img src="imgBotInicio.png" width="47" height="44" title="Volver al Inicio" alt="Botón para volver al inicio" /></a></p>
 
       </form>
-  </div>  
+  </div>
 
 </body>
 </html>

@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <title>Document</title>
   <link rel="stylesheet" href="estilosPerfil.css">
-  <link rel="stylesheet" href="HojaEstilos.css" type="text/css" />
+
 
 </head>
 <body>
