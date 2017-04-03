@@ -99,8 +99,8 @@
           <td class="fuenteRegistro2">TIPO DE CUENTA: </td>
           <td ><select name="id_tipo_transaccion" id="id_tipo_transaccion" required>
               <option value="Tipo de Cuenta" selected="selected">Tipo de Cuenta</option>
-              <option value="Cuenta de Ahorros">Cuenta de Ahorros</option>
-              <option value="Cuenta Corriente">Cuenta Corriente</option>
+              <option value="3">Cuenta de Ahorros</option>
+              <option value="4">Cuenta Corriente</option>
               </select></td>
         </tr>
         <tr>

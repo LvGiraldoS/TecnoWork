@@ -44,7 +44,7 @@ Route::post('insertar_usuarios','usuariosController@insertar_usuarios');
 Route::get('editar/{id_usuario}','usuariosController@editar_usuario');
 Route::get('listar','usuariosController@listar_usuarios');
 Route::get('eliminar/{id_usuario}','usuariosController@eliminar_usuarios');
-Route::get('actualizar/{id_usuario}','usuariosController@actualizar_usuarios');
+Route::post('actualizar/{id_usuario}','usuariosController@actualizar_usuarios');
 
 //USUARIO
 

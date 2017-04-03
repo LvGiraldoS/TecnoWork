@@ -12,6 +12,10 @@ use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use App\usuariosModel;
+use App\tipotransaccionModel;
+use App\tipotituloModel;
+use App\tiposervicioModel;
+use DB;
 
 /**
 * @class UsuariosController
@@ -75,8 +79,21 @@ class usuariosController extends Controller
     */
         public function listar_usuarios()
     {
-        $usuario=usuariosModel::all();
+        //$usuario=usuariosModel::all();
+
+        $usuario = DB::table('usuarios')
+            ->join('tipo_transaccion', 'tipo_transaccion.id_tipo_transaccion', '=', 'usuarios.id_tipo_transaccion')
+           
+            ->select('usuarios.*', 'tipo_transaccion.nombre_tipo_transaccion')
+            ->get();
+
+            $usuario = DB::table('usuarios')
+            ->join('tipo_titulo', 'tipo_titulo.id_tipo_transaccion', '=', 'usuarios.id_tipo_transaccion')
+           
+            ->select('usuarios.*', 'tipo_titulo.nombre_tipo_transaccion')
+            ->get();
         return view('listar_usuarios', compact('usuario'));
+
     }
 //LISTAR USUARIOS
 

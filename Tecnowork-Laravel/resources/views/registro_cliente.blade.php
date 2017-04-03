@@ -100,8 +100,8 @@
           <td class="fuenteRegistro2">TIPO DE PAGO: </td>
           <td ><select name="id_tipo_transaccion" id="id_tipo_transaccion" required>
               <option value="Tipo de Pago" selected="selected">Tipo de Pago</option>
-              <option value="Tarjeta de Credito">Tarjeta de Credito</option>
-              <option value="Tarjeta de Debito">Tarjeta de Debito</option>
+              <option value="1">Tarjeta de Credito</option>
+              <option value="2">Tarjeta de Debito</option>
               </select></td>
         </tr>
         <tr>

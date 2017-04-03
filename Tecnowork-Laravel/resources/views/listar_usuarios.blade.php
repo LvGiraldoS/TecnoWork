@@ -3,16 +3,16 @@
 <ul>
 <table border="1">
 <tr>
-	<td>ID USUARIO</td>
-	<td>TIPO IDENTIFICACIÓN</td>
-	<td>N° IDENTIFICACIÓN</td>
+	<td>ID</td>
+	<td>T.D</td>
+	<td>N° DOC</td>
 	<td>NOMBRES</td>
 	<td>APELLIDOS</td>
 	<td>CORREO ELECTRÓNICO</td>
 	<td>DIRECCIÓN</td>
 	<td>TELÉFONO</td>
 	<td>ENTIDAD BANCARIA</td>
-	<td>N° DE CUENTA</td>
+	<td>N° CUENTA</td>
 	<td>TIPO TRANSACCIÓN</td>
 	<td>TIPO USUARIO</td>
 	<td colspan="2">CAMBIOS</td>
@@ -31,7 +31,7 @@
 	<td>{{$usuarios->telefono}}</td>
 	<td>{{$usuarios->entidad_bancaria}}</td>
 	<td>{{$usuarios->numero_cuenta}}</td>
-	<td>{{$usuarios->id_tipo_transaccion}}</td>
+	<td>{{$usuarios->nombre_tipo_transaccion}}</td>
 	<td>{{$usuarios->tipo_usuario}}</td>
 
 	<td><a href="{{url('editar',$usuarios->id_usuario)}}">Editar</a></td>

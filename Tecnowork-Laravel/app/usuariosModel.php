@@ -9,6 +9,7 @@
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
+//use App\tipotransaccionModel;
 
 /**
 * @class usuariosModel
@@ -23,6 +24,11 @@ class usuariosModel extends Model
 
 
  public $timestamps = false;
+
+ /**public function transaccion()
+    {
+        return $this->belongsTo('tipotransaccionModel', 'id_tipo_transaccion','id_tipo_transaccion');
+    }*/
  
 }
 	
