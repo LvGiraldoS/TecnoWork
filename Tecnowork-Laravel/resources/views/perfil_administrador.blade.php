@@ -20,8 +20,8 @@
           <table border="0">
           <tr>
             <td><a href="listar"><img src="imagenes/imgBotonListarADM.png" alt="IconoListar" width="100" height="96" /></a></td>
-            <td><a href="PerfiADMagregar"><img src="imagenes/imgBotonAgregarADM.png" alt="IconoAgregar" width="100" height="96" /></a></td>
-            <td><a href="Index.php"><img src="imagenes/ImgBotonCerrarsesionADM.png" alt="IconoCerrarsesion" width="103" height="102" /></a></td>
+            <td><a href="agregar"><img src="imagenes/imgBotonAgregarADM.png" alt="IconoAgregar" width="100" height="96" /></a></td>
+            <td><a href="index"><img src="imagenes/ImgBotonCerrarsesionADM.png" alt="IconoCerrarsesion" width="103" height="102" /></a></td>
           </tr>
         </table>
         </div>

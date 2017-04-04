@@ -68,7 +68,7 @@ class usuariosController extends Controller
     public function editar_usuario($id_usuario)
     {
          $usuario=usuariosModel::findorfail($id_usuario);
-        return view ('actualizar_usuarios', compact('usuario'));
+        return view ('editar_usuarios', compact('usuario'));
     }
 //EDITAR USUARIOS
 

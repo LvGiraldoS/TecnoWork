@@ -12,7 +12,7 @@
 <body>
 
  <ul>
-<table border="1" class="Listar" >
+<table border="1" class="Listar" align="center">
 <tr>
 	<td>ID</td>
 	<td>T.D</td>

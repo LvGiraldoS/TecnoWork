@@ -28,6 +28,6 @@
 </table>
 
 
-<input type ="Submit" name="Actualizar Usuario"> 
+<input type ="Submit" name="Editar Usuario"> 
 </form>
 @endsection
