@@ -63,7 +63,9 @@
         </tr>
         <tr>
           <td class="fuenteRegistro2">CONTRASEÑA:</td>
-            <td><input name="contraseñac" type="password" id="contraseñac" size="29"/></td>
+            <td><input name="contraseñac" type="
+            
+            " id="contraseñac" size="29"/></td>
         </tr>
         <tr>
           <td class="fuenteRegistro2">CONFIRMAR CONTRASEÑA:</td>

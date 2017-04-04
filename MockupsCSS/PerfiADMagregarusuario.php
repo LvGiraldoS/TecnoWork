@@ -11,13 +11,14 @@
     		
     
    	  <div class="contenedorInternoADM" align="center">
-   	    <img src="LogoADM.png" alt="LOGO SENA" height="446"   />
+   	   
+      <?php include('AgregarUsuario.php') ?>
 
    	    <div class="botonesADM" align="center">
           <table border="0">
           <tr>
             <td><a href="PerfiADMlistar.php"><img src="imgBotonListarADM.png" alt="IconoListar" width="100" height="96" /></a></td>
-            <td><a href="PerfiADMagregar"><img src="imgBotonAgregarADM.png" alt="IconoAgregar" width="100" height="96" /></a></td>
+            <td><a href="PerfiADMagregar.php"><img src="imgBotonAgregarADM.png" alt="IconoAgregar" width="100" height="96" /></a></td>
             <td><a href="Index.php"><img src="ImgBotonCerrarsesionADM.png" alt="IconoCerrarsesion" width="103" height="102" /></a></td>
           </tr>
         </table>

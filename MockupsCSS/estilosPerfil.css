@@ -139,40 +139,10 @@
 }
 .botonesADM
 {
- 	position:fixed;
+ 	position: absolute;
 	bottom:0px;
 	background-color: rgba(221, 221, 221, 0.5);
-	width:97%;
+	width:100%;
 
 }
 
-.menuPerfilADM{
-	font-family: Verdana, Geneva, sans-serif;
-	color: #FFF;
-	background-color:#02727D;
-	text-align: center;
-	font-size: 10px;
-	right:15px;
-}
-.menuPerfilADM:hover
-{
-	color:#9D9D9D;
-}
-.menuPerfilADM a:link {
-	color: #EEE;
-	text-decoration: none;
-}
-.menuPerfilADM a:visited {
-	text-decoration: none;
-}
-.menuPerfilADM a:hover {
-	text-decoration: none;
-	color: #9CC;
-}
-.menuPerfilADM a:active {
-	text-decoration: none;
-}
-.informacionADM
-{
-	al
-}
