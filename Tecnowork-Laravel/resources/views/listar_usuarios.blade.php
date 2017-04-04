@@ -1,13 +1,26 @@
 @extends ('layout.master')
 @section('content')
-<ul>
-<table border="1">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Documento sin título</title>
+
+<link rel="stylesheet" href="css/HojaEstilos.css" type="text/css" />
+</head>
+
+<body>
+
+ <ul>
+<table border="1" class="Listar" >
 <tr>
 	<td>ID</td>
 	<td>T.D</td>
 	<td>N° DOC</td>
 	<td>NOMBRES</td>
 	<td>APELLIDOS</td>
+	<td>FECHA NACIMIENTO</td>
+    <td>TÍTULO</td>
 	<td>CORREO ELECTRÓNICO</td>
 	<td>DIRECCIÓN</td>
 	<td>TELÉFONO</td>
@@ -26,6 +39,8 @@
 	<td>{{$usuarios->identificacion}}</td>
 	<td>{{$usuarios->nombres}}</td>
 	<td>{{$usuarios->apellidos}}</td>
+	<td>{{$usuarios->fecha_nacimiento}}</td>
+    <td>{{$usuarios->titulo}}</td>
 	<td>{{$usuarios->correo_electronico}}</td>
 	<td>{{$usuarios->direccion}}</td>
 	<td>{{$usuarios->telefono}}</td>
@@ -43,3 +58,7 @@
 
 <ul>
 @endsection
+</body>
+
+</html>
+

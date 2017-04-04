@@ -26,7 +26,7 @@
           <input type="password" name="password" id="contraseña" placeholder="Escribe tu contraseña" required></input> 
           <input type="submit" name="enviar" value="Iniciar Sesión">
         </p>
-        <p align="center"><img src="imgBotInicio.png" width="47" height="44" /> </p>       
+        <p align="center"><img src="imagenes/imgBotInicio.png" width="47" height="44" /> </p>       
 
       </form>
   </div>  

@@ -28,7 +28,7 @@ Route::get('registro_egresado', function () {
     return view('registro_egresado');
 });
 Route::post('insertar_usuarios','usuariosController@insertar_usuarios');
-
+                                     
 //EGRESADO
 
 //CLIENTE
@@ -44,9 +44,16 @@ Route::post('insertar_usuarios','usuariosController@insertar_usuarios');
 Route::get('editar/{id_usuario}','usuariosController@editar_usuario');
 Route::get('listar','usuariosController@listar_usuarios');
 Route::get('eliminar/{id_usuario}','usuariosController@eliminar_usuarios');
-Route::post('actualizar/{id_usuario}','usuariosController@actualizar_usuarios');
+Route::post('actualizar/{id_usuario}','usuariosController@editar_usuarios');
 
 //USUARIO
 
+//ADMIN
+
+Route::get('perfil_admin', function () {
+return view('perfil_administrador');
+});
+
+//ADMIN
 
 

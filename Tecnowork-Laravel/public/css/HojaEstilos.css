@@ -24,7 +24,7 @@
 #falso {
 	position:relative;
 	width:100%;
-	height:50px;
+	height:70px;
 	z-index:2;
 	left: 0px;
 	top:0px;
@@ -34,7 +34,7 @@
 	position:fixed;
 	width:100%;
 	height:52px;
-	z-index:3;
+	z-index:1000;
 	left:0px;
 	top:0px;
 	text-align: center;
@@ -47,42 +47,95 @@
 	background-color:#02727D;
 	text-align: center;
 	font-size: 13px;
+
+	/*border-collapse: collapse;*/
 }
-.menu:hover
-{
-	color:#9D9D9D;
+
+.menu img{
+	padding-left: 10px; 
 }
+.menu a{
+	display: inline-block;
+	/*margin-right:100px;*/
+	padding: 10px 10px 10px;
+	height: 100%;
+	width: 100%;
+}
+
 .menu a:link {
 	color: #EEE;
 	text-decoration: none;
 }
+
 .menu a:visited {
+	color: #EEE;
 	text-decoration: none;
 }
+
 .menu a:hover {
 	text-decoration: none;
 	color: #9CC;
 }
+
 .menu a:active {
 	text-decoration: none;
 }
 
-/*SLAIDER-----------------------------------------------------------*/
+/*SLIDER-----------------------------------------------------------*/
 #Slider {
 	position:relative;
 	width:100%;
-	height:360px;
-	z-index:2;
+	height:380px;
+	z-index:100;
 	text-align: center;
 	background-color: #FFF;
+}
+#Slider table{
+	background: #02727D;
+	border-collapse: collapse;
+}
+
+#Slider a{
+	display: inline-block;
+	padding: 10px;
+	width:100%;
+	color: #fff;
+	text-decoration: none;
+	box-sizing: border-box;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+
+#Slider a:hover{
+	/*background: #000;*/
+	color:#9CC;
 }
 /*CATALOGO DE SERVICIOS----------------------------------------*/
 .Catalogo
 {
 	font-family:Verdana, Geneva, sans-serif;
 	color:#003;
-	font-size:11px;
+	font-size:12px;
 	overflow:auto;
+	background:#e3e7e8;
+	
+	
+}
+.texTitulos
+{
+	font-family: Verdana, Geneva, sans-serif;
+	color: #02727D;
+	font-size: 17px;
+	font-weight: bold;
+	text-align: center;
+}
+.texTitulos2
+{
+	font-family: Verdana, Geneva, sans-serif;
+	color: #02727D;
+	font-size: 17px;
+	font-weight: bold;
+	text-align: center;	
 	
 }
 /*QUIENES SOMOS---------------------------------------------*/
@@ -90,12 +143,14 @@
 {
 	font-family: Verdana, Geneva, sans-serif;
 	color: #0a3338;
+	bgcolor:#02727D;
 	font-size:25px;
 }
 .textoQ
 {
 	font-family: Verdana, Geneva, sans-serif;
 	color: #0a3338;
+	bgcolor:#02727D;
 	font-size:15px;
 }
 /*AYUDA Y SOPORTE-------------------------------------------------*/
@@ -103,78 +158,119 @@
 {
 	font-family: Verdana, Geneva, sans-serif;
 	color: #0a3338;
+	bgcolor:#02727D;
 	font-size:25px;
 }
 .textoA
 {
 	font-family: Verdana, Geneva, sans-serif;
 	color: #0a3338;
+	bgcolor:#02727D;
 	font-size:15px;
 }
 .tituloS
 {
 	font-family: Verdana, Geneva, sans-serif;
 	color: #0a3338;
+	bgcolor:#02727D;
 	font-size:35px;
 }
 .textoS
 {
 	font-family: Verdana, Geneva, sans-serif;
 	color: #0a3338;
+	bgcolor: #02727D;
 	font-size: 15px;
 	text-align: right;
 }
 /*INICIO DE SESION---------------------------------------------------*/
 .bodyInicioSesion{
-margin: 0;
-padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
 .divimgInicioSesion{
-width: 100%;
-margin-top: 60px;
+	width: 100%;
+	margin-top: 60px;
 
 }
 
 .imgInicioSesion{
-display: block;	
-margin: auto;	
+	display: block;
+	margin: auto;
 }
 
 .divformInicioSesion{
-width: 100%;
-
+	width: 100%;
+	
 }
 
 .divformInicioSesion form{
-width: 40%;
-/*border:1px solid #ccc;*/
-margin: auto;
-padding: 20px;
+	width: 40%;
+	/*border:1px solid #ccc;*/
+	margin: auto;
+	padding: 20px;
 
 }
 
-.contraseña, .usuario{
-font-size: 20px;
-font-family: Arial;
-width: 100%;
-padding: 0px 20px 0px 0px;
-font-weight: 5px;
+.contraseña, .usuario, p{
+	font-size: 20px;
+	font-family: Arial;
+	width: 100%;
+	padding: 0px 20px 0px 0px;
+	font-weight: 5px;
 }
 
 
 .divformInicioSesion input{
-margin-bottom: 20px;
-width: 100%;
-padding: 10px;
-box-sizing: border-box;
-border:1px solid #ff8000;
+	margin-bottom: 20px;
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	border:1px solid #ff8000;
 }
 
 .divformInicioSesion input[type="submit"]{
-background: #ff8000;
-color: #fff;
-font-size: 15px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffc578+0,fb9d23+100;Orange+3D+%233 */
+	background: #ffc578; /* Old browsers */
+	background: -moz-linear-gradient(top, #ffc578 0%, #fb9d23 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #ffc578 0%,#fb9d23 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #ffc578 0%,#fb9d23 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffc578', endColorstr='#fb9d23',GradientType=0 ); /* IE6-9 */
+	copy;
+	color: #fff;
+	font-size: 15px;
+
+}
+.divformInicioSesion input[type="submit"]:hover{
+	background: #FA882B;
+	color: #fff;
+	font-size: 15px;
+	cursor: pointer;
+	box-shadow: 2px 2px 1px #D56A14;	
+}
+
+.divformInicioSesion input:focus{
+	border:1px solid #ff8000;
+}
+
+.divformInicioSesion p{
+	text-align: center;
+}
+.divformInicioSesion p a{
+	text-decoration: none;
+	color:#000;
+}		
+
+.divformInicioSesion p a:hover{
+	color:#9CC;
+}
+
+.divformInicioSesion p a:visited{
+	color:#000;
+}
+.divformInicioSesion p a:visited:hover{
+	color:#9CC;
 }
 /*BANNER-----------------------------------------------------------*/
 .fuenteBanner
@@ -182,28 +278,31 @@ font-size: 15px;
 	font-family: Verdana, Geneva, sans-serif;
 	color: #000;
 	font-size: 16px;
-	font-weight: bold;
+	/*font-weight: bold;*/
 }
 #Banner {
 	position:relative;
 	width:100%;
-	height:125px;
+	height:150px;
 	z-index:2;
 	left: 0px;
 	text-align: center;
 	background-color:#FFF;
+	border-collapse: collapse;
 }
 /*REGISTRO DE EGRESADO------------------------------------------*/
 .fuenteRegistro
 {
 	font-family: Verdana, Geneva, sans-serif;
 	color: #0a3338;
+	bgcolor:#02727D;
 	font-size:35px;
 }
 .fuenteRegistro2
 {
 	font-family: Verdana, Geneva, sans-serif;
 	color: #0a3338;
+	bgcolor: #02727D;
 	font-size: 15px;
 	text-align: right;
 }
@@ -211,6 +310,7 @@ font-size: 15px;
 {
 	font-family: Verdana, Geneva, sans-serif;
 	color: #0a3338;
+	bgcolor:#02727D;
 	font-size:14px;
 	text-align:left;
 }
@@ -219,124 +319,127 @@ font-size: 15px;
 #Body {
 	position: relative;
 	width: 100%;
-	height: 450px;
+	height: 780px;
 	z-index: 2;
-	text-align: center;
-	background-color:#fff;
-	color: #0F3;
+
 }
-.letraCuerpoIZ
-{
-	text-align: justify;
-	color: #000;
+
+.tablaBody{
+	width: 900px;
+	font-family: arial;
+	
+}
+
+.tablaBody p{
+	color:#000;
+}
+
+.tablaBody img{
+	width: 100px;
 }
 /*PIE DE PAGINA-------------------------------------------*/
-.fuenteFooter
-{
-	font-family: Verdana, Geneva, sans-serif;
-	font-size: 15px;
-	align: center;
-	color:#FFF;
+#Footer {
+	position:relative;
+	width:100%;
+	height:170px;
+	z-index:2;
+	float: left;
+	left: 0;
+	top:0;
+	background-color: #02727D;
+
 }
-.fuenteFooterTitulo
-{
+.subFooter{
+	width: 960px;
+	margin: auto;
+	/*background-color: #2c41b6;*/
+}
+.subFooter img{
+	float: left;
+	width: 150px;
+	margin:0px 10px 0px 0px;
+}
+.subFooter h2, .subFooter p{
+	margin: 0;
+	margin-top: 8px;
+	margin-right:10px;
+
+}
+
+.subFooter h2{
+	padding: 10px 0px 0px 0px;
 	font-family: Verdana, Geneva, sans-serif;
 	font-size: 15px;
 	text-align: left;
 	color:#FFF;
 }
-#Footer {
-	position:relative;
-	width:100%;
-	height:150px;
-	z-index:2;
-	text-align: center;
-	background-color: #02727D;
-}
-/*PERFIL EGRESADO----------------------------------------------------*/
-
-.tituloPerfil
-{
+.subFooter p{
+	padding: 5px 0px 0px 0px;
 	font-family: Verdana, Geneva, sans-serif;
-	text-align: center;
-	font-size: 25px;
-	color: #1C6C75;
-	font-weight: bold;
-  	
+	font-size: 15px;
+	text-align: justify;
+	color:#FFF;
 }
-.titulo2Perfil
-{
-  font-family:Verdana, Geneva, sans-serif;
-  text-align: left;
-  font-size:18px;
-  color:#1C6C75;
-  font-weight:100;
-  	
-}
-.texto1Perfil
-{
-  font-family:Verdana, Geneva, sans-serif;
-  text-align: left;
-  font-size:12px;
-  color:#222;	
-}
-
-.contenedorInterno
-{
-	position: relative;
-	top: 20px;	
-	float: right;
-	right: 15px; 
-	bottom: 0 px;
-	height: 95%;
-	width: 97%;
-	overflow:auto;
-	border:inherit;
-	border-radius: 10px;
-	box-shadow: 0 0 14px #ddd;
-	background-color: rgba(221, 221, 221, 0.8);
-	text-align-last:center;
+/*LISTAR____________________________________*/
+.Listar{
+	/*border:1px solid #218921;*/
+	border-collapse: collapse;
 	
-
-}
-.botones
-{
- 	position:fixed;
-	bottom:0px;
-	background-color: rgba(221, 221, 221, 0.5);
-	left: 26.3%;
-	width:71.8%;
-
+	
 }
 
-.menuPerfil{
-	position:;
+.Listar td{
+	border:1px solid #02727D;
+	
+}
+
+.Listar tr{
+
+	font-size: 10px;
 	font-family: Verdana, Geneva, sans-serif;
+}
+.Listar tr:hover{
+	background: #CCC;
+}
+
+.Listar td:hover{
+	background: #02727D;
 	color: #FFF;
-	background-color:#02727D;
-	text-align: right;
-	font-size: 13px;
-	right:15px;
+	font-weight: bold;
 }
-.menuPerfil:hover
-{
-	color:#9D9D9D;
+/*Agregar----------------------------*/
+.Agregar{
+	/*border:1px solid #218921;*/
+	border-collapse: collapse;
 }
-.menuPerfil a:link {
-	color: #EEE;
-	text-decoration: none;
+.Agregar a{
+	/*border:1px solid #218921;*/
+	text-decoration:none;
+	color: #02727D;
+	}
+.Agregar td{
+	border:1px solid #02727D;	
 }
-.menuPerfil a:visited {
-	text-decoration: none;
-}
-.menuPerfil a:hover {
-	text-decoration: none;
-	color: #9CC;
-}
-.menuPerfil a:active {
-	text-decoration: none;
-}
-.informacion
-{
+
+.Agregar tr{
+
+	font-size: 17px;
+	font-family: Verdana, Geneva, sans-serif;
 	
+}
+
+.AgregarText1{
+
+	font-size: 25px;
+	font-family: Verdana, Geneva, sans-serif;
+	text-align:center;
+	font-weight: bold;
+	color: #FFF;
+	background-color: rgba(2, 114, 125,9);
+	border-color:#FFF;
+}
+
+.Agregar td:hover{
+	background-color: rgba(2, 114, 125,0.2);
+	color: #FFF;
 }

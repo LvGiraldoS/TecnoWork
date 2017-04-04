@@ -87,11 +87,11 @@ class usuariosController extends Controller
             ->select('usuarios.*', 'tipo_transaccion.nombre_tipo_transaccion')
             ->get();
 
-            $usuario = DB::table('usuarios')
+            /**$usuario = DB::table('usuarios')
             ->join('tipo_titulo', 'tipo_titulo.id_tipo_transaccion', '=', 'usuarios.id_tipo_transaccion')
            
             ->select('usuarios.*', 'tipo_titulo.nombre_tipo_transaccion')
-            ->get();
+            ->get();*/
         return view('listar_usuarios', compact('usuario'));
 
     }
