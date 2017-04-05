@@ -15,19 +15,22 @@
             <td class="AgregarText1" height="100">AGREGAR</td>
     </tr>
     <tr>
-            <td><a href="AgregarUsuario.php">Agregar Usuario</a></td>
+            <td><a href="PerfiADMagregarEgresado.php">Agregar Egresado</a></td>
     </tr>
     <tr>
-            <td><a href="AgregarEntidadBancaria.php">Agregar entidad bancaria</a> </td>
+            <td><a href="PerfiADMagregarCliente.php">Agregar Cliente</a></td>
     </tr>
     <tr>
-            <td><a href="AgregarTipoDeTransaccion.php">Agregar Tipo de pago</a> </td>
+            <td><a href="PerfiADMAgregarEntidadBancaria.php">Agregar entidad bancaria</a> </td>
     </tr>
     <tr>
-            <td><a href="AgregarTipoDeUsuario.php">Agregar Tipo de usuario</a></td>
+            <td><a href="PerfiADMAgregarTipoDeTransaccion.php">Agregar Tipo de pago</a> </td>
     </tr>
     <tr>
-            <td><a href="AgregarTitulos.php">Agregar Titulos</a></td>
+            <td><a href="PerfiADMAgregarTipoDeUsuario.php">Agregar Tipo de usuario</a></td>
+    </tr>
+    <tr>
+            <td><a href="PerfiADMAgregarTitulos.php">Agregar Titulos</a></td>
     </tr>
     
 

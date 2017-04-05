@@ -43,7 +43,7 @@
             <td>{{$usuarios->nombre_tipo_transaccion}}</td>
             <td>{{$usuarios->tipo_usuario}}</td>
             
-            <td><a href="{{url('editar',$usuarios->id_usuario)}}">Editar</a></td>
+            <td><a href="perfiADMeditar.php">Editar</a></td>
             <td><a href="{{url('eliminar',$usuarios->id_usuario)}}">Eliminar</a></td>
     </tr>
 

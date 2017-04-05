@@ -10,10 +10,10 @@
 <body> 
 <form action="" method="get"><table width="500px" border="0" class="tablasAgregar">
   <tr>
-    <td height="67" colspan="2" align="center" class="AGREGAR1">AGREGAR NUEVO TIPO DE USUARIO </td>
+    <td height="67" colspan="2" align="center" class="AGREGAR1">AGREGAR NUEVO TITULO </td>
   </tr>
   <tr>
-    <td><label for="textfield">TIPO DE USUARIO :</label></td>
+    <td><label for="textfield">TITULO :</label></td>
     <td>
       <input type="text" name="textfield" id="textfield" /></td>
   </tr>

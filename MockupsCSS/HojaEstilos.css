@@ -1,3 +1,6 @@
+*{
+	font-family: Verdana, Geneva, sans-serif;
+}
 ::-webkit-scrollbar-track
 {
 	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
@@ -444,4 +447,12 @@
 	color: #FFF;
 }
 
-
+.AGREGAR1 {
+	font-weight: bold;
+	color: #02727D;
+	font-size: 25px;
+}
+.tablasAgregar
+{
+	padding-top: 200px;
+}

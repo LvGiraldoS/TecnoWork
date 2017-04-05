@@ -3,20 +3,18 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Documento sin título</title>
-<link href="HojaEstilos.css" rel="stylesheet" type="text/css" />
+
+<link rel="stylesheet" href="HojaEstilos.css" type="text/css" />
 </head>
 
-<body>
-<p>&nbsp;</p>
-<table width="900" border="3" align="center" bordercolor="#02727D">
-  <tr>
-    <td  class="FondoAzul" ><form id="form1" name="form1" method="post" action="">
-      <table width="539" border="0" align="center"  bordercolor="#02727D">
+<body> 
+<form id="form1" name="form1" method="post" action="">
+      <table width="539" height="485" border="0" align="center"  bordercolor="#02727D">
         <tr>
-          <td height="57" colspan="2" align="center" class="fuenteRegistro" ><p>AGREGAR CLIENTE</p></td>
+          <td height="43" colspan="2" align="center" class="fuenteRegistro" ><p>AGREGAR CLIENTE</p></td>
         </tr>
         <tr>
-          <td width="285" height="31" class="fuenteRegistro2">TIPO DE DOCUMENTO DE IDENTIDAD:</td>
+          <td width="285" height="29" class="fuenteRegistro2">TIPO DE DOCUMENTO DE IDENTIDAD:</td>
           <td width="244" class="fuenteRegistro3"><label for="tipoDoc"></label>
             <p>
               <label>
@@ -33,44 +31,44 @@
             </td>
         </tr>
         <tr>
-          <td height="33" class="fuenteRegistro2">N° DOCUMENTO:</td>
+          <td height="34" class="fuenteRegistro2">N° DOCUMENTO:</td>
           <td><label for="numDoc"></label>
             <input name="numerodocumentoc" type="text" id="numerodocumentoc" size="29" /></td>
         </tr>
         <tr>
-          <td height="33" class="fuenteRegistro2">NOMBRES:</td>
+          <td height="31" class="fuenteRegistro2">NOMBRES:</td>
           <td><input name="nombresc" type="text" id="nombresc" size="29" /></td>
         </tr>
         <tr>
-          <td height="31" class="fuenteRegistro2">APELLIDOS:</td>
+          <td height="30" class="fuenteRegistro2">APELLIDOS:</td>
           <td><input name="apellidosc" type="text" id="apellidosc" size="29" /></td>
         </tr>
         <tr>
-          <td class="fuenteRegistro2">FECHA DE NACIMIENTO:</td>
+          <td height="30" class="fuenteRegistro2">FECHA DE NACIMIENTO:</td>
           <td><input type="date" name=""></td>
         </tr>
         <tr>
-          <td class="fuenteRegistro2">CORREO ELECTRÓNICO: (personal)</td>
+          <td height="31" class="fuenteRegistro2">CORREO ELECTRÓNICO: (personal)</td>
           <td><input name="correoelectronicoc" type="text" id="correoelectronicoc" size="29" /></td>
         </tr>
         <tr>
-        	<td class="fuenteRegistro2">CONTRASEÑA</td>
-            <td><input name="contraseñac" type="password" id="contraseñac" size="29"/></td>
+        	<td height="30" class="fuenteRegistro2">CONTRASEÑA</td>
+          <td><input name="contraseñac" type="password" id="contraseñac" size="29"/></td>
         </tr>
         <tr>
-          <td class="fuenteRegistro2">CONFIRMAR CONTRASEÑA:</td>
+          <td height="32" class="fuenteRegistro2">CONFIRMAR CONTRASEÑA:</td>
           <td><input name="contraseña2c" type="password" id="contraseña2c" size="29"/></td>
         </tr>
         <tr>
-          <td class="fuenteRegistro2">DIRECCIÓN:</td>
+          <td height="28" class="fuenteRegistro2">DIRECCIÓN:</td>
           <td><input name="direccionc" type="text" id="direccionc" size="29" /></td>
         </tr>
         <tr>
-          <td class="fuenteRegistro2">TELÉFONO:</td>
+          <td height="24" class="fuenteRegistro2">TELÉFONO:</td>
           <td><input name="telefonoc" type="text" id="telefonoc" size="29" /></td>
         </tr>
         <tr>
-          <td class="fuenteRegistro2">ENTIDAD BANCARIA : </td>
+          <td height="28" class="fuenteRegistro2">ENTIDAD BANCARIA : </td>
           <td ><select name="entidadc" id="entidadc">
             <option>Entidad Bancaria</option>
             <option value="Tipo de Pago">Colpatria</option>
@@ -81,7 +79,7 @@
                               </select></td>
         </tr>
         <tr>
-          <td class="fuenteRegistro2">NÚMERO DE CUENTA:</td>
+          <td height="28" class="fuenteRegistro2">NÚMERO DE CUENTA:</td>
           <td>
             <input type="text" name="numerocuenta" id="numero de cuenta" />
           </td>
@@ -89,7 +87,7 @@
     
 
         <tr>
-          <td class="fuenteRegistro2">TIPO DE PAGO: </td>
+          <td height="24" class="fuenteRegistro2">TIPO DE PAGO: </td>
           <td ><select name="tipodepagoc" id="tipodepagoc">
               <option value="Tipo de Pago" selected="selected">Tipo de Pago</option>
               <option value="Tarjeta de Credito">Tarjeta de Credito</option>
@@ -97,13 +95,11 @@
               </select></td>
         </tr>
         <tr>
-          <td height="44" colspan="2" align="center">  <input type="submit" name="button" id="button" value="Registrar" /></td>
+          <td colspan="2" align="center">  <input type="submit" name="Agregar" id="Agregar" value="Agregar" /></td>
           </tr>
     </table>
       <p>&nbsp;</p>
-    </form></td>
-  </tr>
-</table>
-
+    </form>
+  
 </body>
 </html>

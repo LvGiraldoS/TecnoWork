@@ -12,7 +12,7 @@
     
    	  <div class="contenedorInternoADM" align="center">
    	   
-      <?php include('AgregarUsuario.php') ?>
+      <?php include('AgregarEntidadBancaria.php') ?>
 
    	    <div class="botonesADM" align="center">
           <table border="0">
