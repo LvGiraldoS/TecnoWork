@@ -6,6 +6,9 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Documento sin título</title>
 <link href="css/HojaEstilos.css" rel="stylesheet" type="text/css" />
+<div id="Menu">  <?php include ('Menu.php'); ?> </div>
+<br>
+
 </head>
 
 <body>
@@ -120,4 +123,18 @@
 
 </body>
 </html>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+<div id="Footer"> <?php include ('footer.php'); ?> </div>
 @endsection

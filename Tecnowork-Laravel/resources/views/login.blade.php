@@ -15,21 +15,20 @@
       <img src="imagenes/imgLogoInicioSesion.png" class="imgInicioSesion">
   </div>
 
-  <div class="divformInicioSesion">  
-      
-      <form class="form" method="POST" action="login">
-       {!! csrf_field() !!}
-        <p>
-          <label for="correo_electronico" class="usuario">Usuario (Correo Registrado):</label>
-          <input type="text" name ="email" placeholder="Escribe tu correo" required></input>  
-          <label for="contraseña" class="contraseña" name ="contraseña">Contraseña:</label>
-          <input type="password" name="password" id="contraseña" placeholder="Escribe tu contraseña" required></input> 
+  <div class="divformInicioSesion">
+
+      <form class="form" action="agregar">
+
+          <label for="correoUsuario" class="usuario">Usuario (Correo Registrado):</label>
+          <input type="email" id="correoUsuario" placeholder="Escribe tu correo" name="email" required></input>  
+          <label for="contraseña" class="contraseña">Contraseña:</label>
+          <input type="password" id="contraseña" placeholder="Escribe tu contraseña" name="password" required></input>
           <input type="submit" name="enviar" value="Iniciar Sesión">
-        </p>
-        <p align="center"><img src="imagenes/imgBotInicio.png" width="47" height="44" /> </p>       
+          <p><a href="registro_egresado">Registrate como Egresado </a> - <a href="registro_cliente">Registrate como Cliente</a></p>
+          <p><a href="inicio"><img src="imagenes/imgBotInicio.png" width="47" height="44" title="Volver al Inicio" alt="Botón para volver al inicio" /></a></p>
 
       </form>
-  </div>  
+  </div>
 
 </body>
 </html>

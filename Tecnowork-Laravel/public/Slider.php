@@ -20,8 +20,8 @@
 </table>
 <table width="900px" align="center">
 	<tr>
-		<td align="center"><a href="indexRegistroEgresado.php">REGISTRATE COMO CLIENTE</a></td>
-		<td align="center"><a href="indexRegistroCliente.php">REGISTRATE COMO EGRESADO</a></td>
+		<td align="center"><a href="registro_cliente">REGISTRATE COMO CLIENTE</a></td>
+		<td align="center"><a href="registro_egresado">REGISTRATE COMO EGRESADO</a></td>
 	</tr>
 
 </table>

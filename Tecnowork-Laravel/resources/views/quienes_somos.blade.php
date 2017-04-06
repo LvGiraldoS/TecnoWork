@@ -8,65 +8,11 @@
 </head>
 
 <body>
-<table width="905" border="3" align="center" bordercolor="#02727D">
-  <tr>
-    <td>
-    <table width="900" >
-  <tr>
-    <td class="tituloQ">
-      ¿Quiénes somos?
-    </td>
-  </tr>
-  <tr>
-    <td class="textoQ"><p>TecnoWork es una empresa enfocada a mejorar el concepto de  habilidades que tiene la sociedad con respecto a los egresados del SENA, pero  nuestro principal objetivo es contribuir con que la tasa de desempleo que tiene  el país disminuya e impulsar a pequeñas empresas y personas naturales de forma  de que, utilizando nuestros servicios, puedan encontrar a la persona correcta  para el trabajo que desean realizar.</p>
-    <p>Nuestra forma de operar es muy simple, una persona que  necesite solucionar algún problema con respecto a la tecnología, puede ingresar  fácilmente a la plataforma web, postula su problema creando una oferta de  servicio, dicha oferta, es vista por un egresado con las habilidades para  realizar el servicio, espera la confirmación y se dirige a realizarlo, cuando  ya se haya resuelto el problema, se realizara una calificación del servicio, el  pago y el trabajo será concluido.</p>
-    <p>&nbsp;</p></td>
-  </tr>
 
-  <tr>
-    <td class="tituloQ">mision</td>
-  </tr>
-  <tr>
-    <td class="textoQ"><p>&nbsp;</p>
-    <p>&nbsp;</p>
-    <p>&nbsp;</p></td>
-  </tr>
-  <tr>
-    <td class="tituloQ">Vision</td>
-  </tr>
-  <tr>
-    <td class="textoQ"><p>&nbsp;</p>
-    <p>&nbsp;</p>
-    <p>&nbsp;</p></td>
-  </tr>
-  <tr>
-    <td class="tituloQ">Creadores</td>
-  </tr>
-  <tr>
-    <td class="textoQ"><p>&nbsp;</p>
-    <p>&nbsp;</p>
-    <p>&nbsp;</p></td>
-  </tr>
-  <tr>
-    <td class="tituloQ"><p>Administradores</p></td>
-  </tr>
-  <tr>
-    <td class="textoQ"><p>&nbsp;</p>
-    <p></p>
-    <p>&nbsp;</p></td>
-  </tr>
-</table>
-    </td>
-  </tr>
-  <tr>
-    <td><a href="inicio">Ir a Inicio</a></td>
-  </tr>
-</table>
-
-
-<p>&nbsp;</p>
-
-
+<div id="falso"></div>
+<div id="Menu">  <?php include ('Menu.php'); ?> </div>
+<div id="QuienesSomos">  <?php include ('QuienesSomos.php'); ?> </div>
+<div id="Footer"> <?php include ('footer.php'); ?> </div>
 
 </body>
 </html>

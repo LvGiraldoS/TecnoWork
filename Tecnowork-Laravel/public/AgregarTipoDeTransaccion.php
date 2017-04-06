@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Documento sin título</title>
+
+<link rel="stylesheet" href="css/HojaEstilos.css" type="text/css" />
+</head>
+
+<body> 
+<form action="" method="get"><table width="500px" border="0" class="tablasAgregar">
+  <tr>
+    <td height="67" colspan="2" align="center" class="AGREGAR1">AGREGAR NUEVO  TIPO DE TRANSACCION </td>
+  </tr>
+  <tr>
+    <td><label for="textfield">TIPO DE TRANSACCION  :</label></td>
+    <td>
+      <input type="text" name="textfield" id="textfield" /></td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center"><input type="submit" name="button" id="button" value="Enviar" /></td>
+  </tr>
+</table>
+</form>
+  
+</body>
+</html>
