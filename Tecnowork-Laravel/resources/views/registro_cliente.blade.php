@@ -15,6 +15,24 @@
 </head>
 
 <body>
+
+<?php
+
+//CONEXION
+header("content -Type:text/html;charset-8");
+$DB = new MySQLi('localhost', 'root', '', 'tecnowork');
+$tildes = $DB->query("set name 'utf-8'");
+
+//Servidor, user, password, db
+
+if($DB->connect_error > 0)
+{
+  die('error de conexión{'. $DB ->connect_error.'}');
+}
+//CONEXION
+
+?>
+
 <p>&nbsp;</p>
 <table width="900" border="3" align="center" bordercolor="#02727D">
   <tr>
@@ -84,7 +102,38 @@
           <td class="fuenteRegistro2">TELÉFONO:</td>
           <td><input name="telefono" type="text" id="telefono" size="29" required/></td>
         </tr>
+
          <tr>
+          <td class="fuenteRegistro2">ENTIDAD BANCARIA: </td>
+          <td><select name="estado_civil" id="estado_civil">
+            
+            <?php
+      
+      //SUBCONSULTA ESTADO CIVIL
+      
+            //include ('Conexion.php');
+        
+            $sql1 = "SELECT * FROM entidad_bancaria ORDER BY entidad_bancaria";
+              
+            if(!$result1 = $DB->query($sql1)){
+            die('No se a encontrado !!! [' . $DB->error . '] ');
+            }
+            
+            while($row1 = $result1->fetch_assoc() )
+            {
+              $nombre = $row1["nombre_entidad_bancaria"];
+              
+              echo "<option value=" . $nombre .">" . $nombre . "</option>";
+              
+            }
+              
+            //SUBCONSULTA ESTADO CIVIL
+            
+            ?>
+            </select></td>
+        </tr>
+
+         <!--<tr>
           <td class="fuenteRegistro2">ENTIDAD BANCARIA: </td>
           <td ><select name="entidad_bancaria" id="entidad_bancaria" required> 
               <option>Entidad Bancaria</option>
@@ -94,7 +143,7 @@
               <option value="Davivienda">Davivienda</option>
               <option value="Banco de Bogotá">Banco de Bogotá</option>
               </select></td>
-        </tr>
+        </tr>-->
         <tr>
           <td class="fuenteRegistro2">NÚMERO DE CUENTA:</td>
           <td>

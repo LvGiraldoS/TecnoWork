@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateServiciosUsuariosTable extends Migration
+class CreateRolTable extends Migration
 {
     /**
      * Run the migrations.
@@ -12,10 +12,10 @@ class CreateServiciosUsuariosTable extends Migration
      */
     public function up()
     {
-        Schema::create('servicios_usuarios', function (Blueprint $table) {
-            $table->integer('id_usuario');
-            $table->integer('id_servicio');
-            
+        Schema::create('rol', function (Blueprint $table) {
+            $table->increments('id_rol');
+            $table->string('nombre_rol');
+           
         });
     }
 

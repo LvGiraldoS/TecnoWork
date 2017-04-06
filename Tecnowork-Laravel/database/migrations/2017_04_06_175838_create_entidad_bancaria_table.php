@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateTipoTituloUsuariosTable extends Migration
+class CreateEntidadBancariaTable extends Migration
 {
     /**
      * Run the migrations.
@@ -12,11 +12,9 @@ class CreateTipoTituloUsuariosTable extends Migration
      */
     public function up()
     {
-        Schema::create('tipo_titulo_usuarios', function (Blueprint $table) {
-            $table->integer('id_usuario');
-            $table->integer('id_tipo_titulo');
-
-            $table->foreign('id_tipo_transaccion')->references('id_tipo_transaccion')->on('tipo_transaccion');
+        Schema::create('entidad_bancaria', function (Blueprint $table) {
+            $table->increments('id_entidad_bancaria');
+            $table->string('nombre_entidad_bancaria');
             
         });
     }
